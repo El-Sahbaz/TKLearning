@@ -24,9 +24,9 @@ def BMI_Calculation():
 
         if BMI < 18.5:
             result_var.set(f"Your BMI is {BMI:.2f}. You are UNDERWEIGHT!")
-        elif 18.5 <= BMI < 24.9:
+        elif 18.5 <= BMI <= 24.9:
             result_var.set(f"Your BMI is {BMI:.2f}. You are NORMAL.")
-        elif 25 <= BMI < 29.9:
+        elif 25 <= BMI <= 29.9:
             result_var.set(f"Your BMI is {BMI:.2f}. You are OVERWEIGHT!")
         elif BMI >= 30:
             result_var.set(f"Your BMI is {BMI:.2f}. You are OBESE. Consider a healthier lifestyle.")
